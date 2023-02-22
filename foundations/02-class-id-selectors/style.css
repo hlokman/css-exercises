@@ -1,0 +1,8 @@
+.odd {
+    background-color: rgb(255, 153, 153);
+    font-family: Verdana, "DejaVu sans", sans-serif;
+}
+
+.odd.cooler {
+    font-size: 36px;
+}
