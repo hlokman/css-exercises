@@ -1,21 +1,21 @@
-.odd {
-    background-color: rgb(255, 153, 153);
+* {
     font-family: Verdana, "DejaVu sans", sans-serif;
 }
 
-.odd.cooler {
+.odd {
+    background-color: rgb(255, 153, 153);
+}
+
+.adjust-font-size {
     font-size: 24px;
 }
 
 #id1 {
     color: #0000ff;
     font-size: 36px;
-    font-family: Verdana, "DejaVu sans", sans-serif;
 }
 
 #id2 {
     background-color: hsl(120, 100%, 70%);
     font-weight: bold;
-    font-size: 24px;
-    font-family: Verdana, "DejaVu sans", sans-serif;
 }
