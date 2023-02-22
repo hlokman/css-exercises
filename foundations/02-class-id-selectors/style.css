@@ -6,3 +6,16 @@
 .odd.cooler {
     font-size: 36px;
 }
+
+#id1 {
+    color: #0000ff;
+    font-size: 36px;
+    font-family: Verdana, "DejaVu sans", sans-serif;
+}
+
+#id2 {
+    background-color: hsl(120, 100%, 70%);
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Verdana, "DejaVu sans", sans-serif;
+}
