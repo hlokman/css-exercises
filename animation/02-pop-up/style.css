@@ -35,10 +35,11 @@ button {
   top: 50%;
   left: 50%;
   transform-origin: center;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -100%);
   pointer-events: none;
   opacity: 0%;
   text-align: center;
+  transition: transform 0.3s ease-in-out, opacity 0.4s ease;
 }
 
 .popup-modal p {
@@ -56,7 +57,25 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+  transform: translate(-50%, -50%);
+  /*animation-duration: 0.5s;
+  animation-name: slide;
+  animation-direction: alternate;
+  animation-iteration-count: 1;*/
 }
+
+/*
+@keyframes slide {
+  from {
+    transform: translate(-50%, -100%);
+    opacity: 20%;
+  }
+
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 100%;
+  }
+}*/
 
 .backdrop.show {
   opacity: 30%;
